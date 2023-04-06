@@ -7,7 +7,7 @@ namespace offsets
 {
 	
 
-	extern DWORD
+	inline DWORD
 		uworld_state,                    // @image_base 
 		uworld_key,          // @image_base + (uworld_state + 0x38)
 

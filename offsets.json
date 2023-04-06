@@ -63,7 +63,7 @@
     "relative_rotation": "0x170",
     "default_fov": "0x3EC",
     "camera_cache": "0x510",
-    "pov": "0x10
+    "pov": "0x10,
     "location": "0x0",
     "rotation": "0x0C",
     "current_fov": "0x18",

@@ -2,6 +2,7 @@
 #include <fstream>
 #include "json.hpp"
 #include "offsets.hpp"
+#include <sstream>
 
 template <typename T>
 template <typename T>

@@ -4,10 +4,23 @@
 #include "offsets.hpp"
 
 template <typename T>
+template <typename T>
 void readValue(const nlohmann::json& src, T& dest)
 {
-	if (!src.is_null())
-		dest = src.get<T>();
+	if (!src.is_null()) {
+		if (src.is_number()) {
+			dest = src.get<T>();
+		}
+		else if (src.is_string()) {
+			std::istringstream iss{ src.get<std::string>() };
+			if (!(iss >> dest)) {
+				throw std::runtime_error("JSON field must be a number or a string representing a number.");
+			}
+		}
+		else {
+			throw std::runtime_error("JSON field must be a number or a string representing a number.");
+		}
+	}
 }
 
 void offsets::initialize()

@@ -20,12 +20,13 @@
     "ares_outline_mode": "0x4A04500",
     "proj_world_to_screen": "0x4BA1EB0",
     "get_actor_bounds": "0x4830D60",
-
     "persistent_level": "0x38",
     "owning_game_instance": "0x1A0",
     "game_state": "0x140",
     "levels": "0x158",
     "local_players": "0x40",
+    "actor_array": 0xA0,
+    "actor_count": 0xB8,
     "viewport_client": "0x78",
     "player_controller": "0x38",
     "acknowledged_pawn": "0x460",
@@ -42,7 +43,6 @@
     "outline_component": "0x11C0",
     "portrait_map": "0x1150",
     "character_map": "0x1158",
-
     "current_equippable": "0x240",
     "local_observer": "0x530",
     "is_visible": "0x501",
@@ -54,7 +54,6 @@
     "outline_mode": "0x330",
     "attach_children": "0x110",
     "attach_children_count": "0x118",
-
     "team_component": "0x628",
     "team_id": "0xF8",
     "current_health": "0x1B0",
@@ -68,7 +67,6 @@
     "rotation": "0x0C",
     "current_fov": "0x18",
     "enemy_outline": "0x2B1",
-
     "bone_array_cache": "0x5D0",
     "current_defuse_section": "0x500",
     "magazine_ammo": "0xFF0",

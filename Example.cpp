@@ -8,7 +8,7 @@ int main(int argc, char** argv)
 	HRESULT result = URLDownloadToFileA(nullptr, url, "offsets.json", 0, nullptr);
 	if (result != S_OK)
 	{
-		std::cout << ("[!] Could not update offsets. Falling back to ILLUSION's offsets") << std::endl;
+		std::cout << ("[!] Could not update offsets.") << std::endl;
 
 		//you can implement another method to get offsets if get problems with github link
 	}

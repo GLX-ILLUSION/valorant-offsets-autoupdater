@@ -8,10 +8,13 @@ int main(int argc, char** argv)
 	HRESULT result = URLDownloadToFileA(nullptr, url, "offsets.json", 0, nullptr);
 	if (result != S_OK)
 	{
-		std::cout << ("[!] Could not update offsets.") << std::endl;
-
-		//you can implement another method to get offsets if get problems with github link
+		std::cout << "[!] Could not update offsets. Error code: " << std::hex << result << std::endl;
 	}
+	else
+	{
+		std::cout << "[+] Offsets successfully downloaded." << std::endl;
+	}
+
 
 	offsets::initialize();
 }

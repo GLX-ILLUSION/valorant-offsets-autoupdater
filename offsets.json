@@ -1,7 +1,7 @@
 {
 	"offsets": {
 		"uworld_state": "0x8C495C0",
-		"uworld_key": "0x8C495F8",
+		"uworld_key": "0x8C495E8",
 		"gobj_state": "0x8ABAA80",
 		"gobj_key": "0x8ABAAA8",
 		"fname_pool": "0x8A7FD80",
@@ -20,7 +20,6 @@
 		"ares_outline_mode": "0x4A04500",
 		"proj_world_to_screen": "0x4BA1EB0",
 		"get_actor_bounds": "0x4830D60",
-
 		"persistent_level": "0x38",
 		"owning_game_instance": "0x1A0",
 		"game_state": "0x140",
@@ -42,19 +41,17 @@
 		"outline_component": "0x11C0",
 		"portrait_map": "0x1150",
 		"character_map": "0x1158",
-
 		"current_equippable": "0x240",
 		"local_observer": "0x530",
 		"is_visible": "0x501",
 		"component_to_world": "0x250",
 		"bone_array": "0x5C0",
 		"bone_count": "0x5C8",
-		"last_submit_time": "0x378",
+		"last_sub_time": "0x378",
 		"last_render_time": "0x37C",
 		"outline_mode": "0x330",
 		"attach_children": "0x110",
 		"attach_children_count": "0x118",
-
 		"team_component": "0x628",
 		"team_id": "0xF8",
 		"current_health": "0x1B0",
@@ -65,10 +62,9 @@
 		"camera_cache": "0x510",
 		"pov": "0x10",
 		"location": "0x0",
-		"rotation": "0x0C",
+		"rotation": "0xC",
 		"current_fov": "0x18",
 		"enemy_outline": "0x2B1",
-
 		"bone_array_cache": "0x5D0",
 		"current_defuse_section": "0x500",
 		"magazine_ammo": "0xFF0",

@@ -7,10 +7,24 @@
 template <typename T>
 void readValue(const nlohmann::json& src, T& dest)
 {
-	if (!src.is_null() && src.is_string())
+	if (!src.is_null())
 	{
-		std::string hex_str = src.get<std::string>();
-		dest = static_cast<T>(std::stoul(hex_str, nullptr, 16));
+		if (src.is_string())
+		{
+			std::string value_str = src.get<std::string>();
+			if (value_str.substr(0, 2) == "0x") // hex prefix
+			{
+				dest = static_cast<T>(std::stoul(value_str.substr(2), nullptr, 16));
+			}
+			else
+			{
+				dest = static_cast<T>(std::stoul(value_str, nullptr, 10));
+			}
+		}
+		else
+		{
+			dest = src.get<T>();
+		}
 	}
 }
 
@@ -96,4 +110,22 @@ void offsets::initialize()
 	readValue(json["offsets"]["max_ammo"], offsets::max_ammo);
 	readValue(json["offsets"]["spike_timer"], offsets::spike_timer);
 	readValue(json["offsets"]["my_hud"], offsets::my_hud);
+	
+	//you can print the offsets to see if it worked
+	
+	std::cout << "owning_game_instance: 0x" << offsets::owning_game_instance << std::endl;
+	std::cout << "game_state: 0x" << offsets::game_state << std::endl;
+	std::cout << "levels: 0x" << offsets::levels << std::endl;
+	std::cout << "local_players: 0x" << offsets::local_players << std::endl;
+	std::cout << "actor_array: 0x" << offsets::actor_array << std::endl;
+	std::cout << "viewport_client: 0x" << offsets::viewport_client << std::endl;
+	std::cout << "player_controller: 0x" << offsets::player_controller << std::endl;
+	std::cout << "acknowledged_pawn: 0x" << offsets::acknowledged_pawn << std::endl;
+	std::cout << "player_camera: 0x" << offsets::player_camera << std::endl;
+	std::cout << "control_rotation: 0x" << offsets::control_rotation << std::endl;
+	std::cout << "root_component: 0x" << offsets::root_component << std::endl;
+	std::cout << "damage_handler: 0x" << offsets::damage_handler << std::endl;
+	std::cout << "actor_id: 0x" << offsets::actor_id << std::endl;
+	std::cout << "fname_id: 0x" << offsets::fname_id << std::endl;
+	std::cout << "dormant: 0x" << offsets::dormant << std::endl;
 }

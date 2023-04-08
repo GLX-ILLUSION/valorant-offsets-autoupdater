@@ -1,5 +1,5 @@
 #include "offsets.hpp"
-#pragma comment(lib,"urlmon.lib) //for urldownload
+#pragma comment(lib,"urlmon.lib") //for urldownload
 
 int main(int argc, char** argv)
 {

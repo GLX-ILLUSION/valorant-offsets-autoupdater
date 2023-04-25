@@ -2,8 +2,8 @@
   "offsets": {
     "uworld_state": "0x8c8a640",
     "uworld_key": "0x8C8A678",
-    "gobj_state": "null", //waiting pinguu new offset
-    "gobj_key": "null", //waiting pinguu new offset
+    "gobj_state": "null",
+    "gobj_key": "null",
     "fname_pool": "0x8ac0d80",
     "fname_pool_state": "0x8af3d40",
     "fname_pool_key": "0x8AF3D78",

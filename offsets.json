@@ -39,7 +39,7 @@
       "dormant":"0x100",
       "player_state":"0x3F0",
       "current_mesh":"0x430",
-      "inventory":"0x9B0",
+      "inventory":"0x9b0",
       "outline_component":"0x11C0",
       "portrait_map":"0x1150",
       "character_map":"0x1158",

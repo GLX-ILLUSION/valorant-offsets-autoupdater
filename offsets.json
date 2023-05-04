@@ -75,5 +75,9 @@
     "max_ammo": "0x120",
     "spike_timer": "0x4D4",
     "my_hud": "0x470"
+    "HP": "0x134",
+    "MaxHP": "0x138,",
+    "DamageType":"0x128",
+    "DamageSections":"0x198",
   }
 }

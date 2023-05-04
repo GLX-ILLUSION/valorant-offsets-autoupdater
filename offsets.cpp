@@ -3,6 +3,9 @@
 #include "json.hpp"
 #include "offsets.hpp"
 #include <sstream>
+#include <iostream>
+
+#include <sstream>
 
 template <typename T>
 void readValue(const nlohmann::json& src, T& dest)
@@ -27,6 +30,7 @@ void readValue(const nlohmann::json& src, T& dest)
 		}
 	}
 }
+
 
 void offsets::initialize()
 {
@@ -110,9 +114,11 @@ void offsets::initialize()
 	readValue(json["offsets"]["max_ammo"], offsets::max_ammo);
 	readValue(json["offsets"]["spike_timer"], offsets::spike_timer);
 	readValue(json["offsets"]["my_hud"], offsets::my_hud);
-	
-	//you can print the offsets to see if it worked
-	
+	readValue(json["offsets"]["HP"], offsets::HP);
+	readValue(json["offsets"]["MaxHP"], offsets::MaxHP);
+	readValue(json["offsets"]["DamageType"], offsets::DamageType);
+	readValue(json["offsets"]["DamageSections"], offsets::DamageSections);
+
 	std::cout << "owning_game_instance: 0x" << offsets::owning_game_instance << std::endl;
 	std::cout << "game_state: 0x" << offsets::game_state << std::endl;
 	std::cout << "levels: 0x" << offsets::levels << std::endl;
@@ -128,4 +134,6 @@ void offsets::initialize()
 	std::cout << "actor_id: 0x" << offsets::actor_id << std::endl;
 	std::cout << "fname_id: 0x" << offsets::fname_id << std::endl;
 	std::cout << "dormant: 0x" << offsets::dormant << std::endl;
+
+
 }

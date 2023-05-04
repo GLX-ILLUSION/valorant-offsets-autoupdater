@@ -118,6 +118,7 @@ void offsets::initialize()
 	readValue(json["offsets"]["MaxHP"], offsets::MaxHP);
 	readValue(json["offsets"]["DamageType"], offsets::DamageType);
 	readValue(json["offsets"]["DamageSections"], offsets::DamageSections);
+	readValue(json["offsets"]["CurrentEquippableVFXState"], offsets::CurrentEquippableVFXState);
 
 	std::cout << "owning_game_instance: 0x" << offsets::owning_game_instance << std::endl;
 	std::cout << "game_state: 0x" << offsets::game_state << std::endl;

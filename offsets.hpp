@@ -131,6 +131,7 @@ namespace offsets
 			DamageType,
 			DamageSections,
 			CurrentEquippableVFXState, //[~] Name: CurrentEquippableVFXState - New Offset: 0xcf0 - (Before: 0xce8)
+			FresnelIntensity;
 
 		void initialize();
 	

@@ -78,6 +78,7 @@
       "MaxHP":"0x138",
       "DamageType":"0x128",
       "DamageSections":"0x198",
-      "CurrentEquippableVFXState":"0xcf0"
+      "CurrentEquippableVFXState":"0xcf0",
+      "fresnel_intensity":"0x6d4"
    }
 }

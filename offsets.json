@@ -2,7 +2,7 @@
    "offsets":{
       "uworld_state":"0x8c8a6c0",
       "uworld_key":"0x8C8A6F8",
-      "gobj_state":"null",
+      "gobj_state":"0x0",
       "gobj_key":"0x38",
       "fname_pool":"0x8ac0e00",
       "fname_pool_state":"0x8af3dc0",

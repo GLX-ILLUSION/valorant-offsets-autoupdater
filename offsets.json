@@ -1,7 +1,7 @@
 {
    "offsets":{
-      "uworld_state":"0x8c8a6c0",
-      "uworld_key":"0x8C8A6F8",
+      "uworld_state":"0x9282500",
+      "uworld_key":"0x9282538",
       "gobj_state":"0x0",
       "gobj_key":"0x38",
       "fname_pool":"0x8ac0e00",
@@ -47,8 +47,8 @@
       "local_observer":"0x530",
       "is_visible":"0x501",
       "component_to_world":"0x250",
-      "bone_array":"0x5C0",
-      "bone_count":"0x5C8",
+      "bone_array":"0x5D8",
+      "bone_count":"0x5E0",
       "last_submit_time":"0x378",
       "last_render_time":"0x37C",
       "outline_mode":"0x330",

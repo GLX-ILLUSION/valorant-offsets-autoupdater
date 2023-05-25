@@ -67,7 +67,7 @@
       "rotation":"0xC",
       "current_fov":"0x18",
       "enemy_outline":"0x2B1",
-      "bone_array_cache":"0x5E8",
+      "bone_array_cache":"0x5C8",
       "current_defuse_section":"0x514",
       "magazine_ammo":"0xFF0",
       "auth_resource_amount":"0x120",

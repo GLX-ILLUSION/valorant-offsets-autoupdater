@@ -130,7 +130,7 @@ namespace offsets
 			MaxHP,
 			DamageType,
 			DamageSections,
-			CurrentEquippableVFXState, //[~] Name: CurrentEquippableVFXState - New Offset: 0xcf0 - (Before: 0xce8)
+			CurrentEquippableVFXState, //ShooterGame_classes.h
 			FresnelIntensity;
 
 		void initialize();

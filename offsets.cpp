@@ -41,26 +41,8 @@ void offsets::initialize()
 	nlohmann::json json;
 	input_file >> json;
 
-	readValue(json["offsets"]["uworld_state"], offsets::uworld_state);
-	readValue(json["offsets"]["uworld_key"], offsets::uworld_key);
-	readValue(json["offsets"]["gobj_state"], offsets::gobj_state);
-	readValue(json["offsets"]["gobj_key"], offsets::gobj_key);
+	
 	readValue(json["offsets"]["fname_pool"], offsets::fname_pool);
-	readValue(json["offsets"]["fname_pool_state"], offsets::fname_pool_state);
-	readValue(json["offsets"]["fname_pool_key"], offsets::fname_pool_key);
-	readValue(json["offsets"]["fname_pool_decrypt_w"], offsets::fname_pool_decrypt_w);
-	readValue(json["offsets"]["fname_pool_decrypt_nw"], offsets::fname_pool_decrypt_nw);
-	readValue(json["offsets"]["find_object"], offsets::find_object);
-	readValue(json["offsets"]["process_event"], offsets::process_event);
-	readValue(json["offsets"]["bone_matrix"], offsets::bone_matrix);
-	readValue(json["offsets"]["line_of_sight"], offsets::line_of_sight);
-	readValue(json["offsets"]["skin_changer_decrypt"], offsets::skin_changer_decrypt);
-	readValue(json["offsets"]["veh_deref"], offsets::veh_deref);
-	readValue(json["offsets"]["enemy_outline_color"], offsets::enemy_outline_color);
-	readValue(json["offsets"]["ally_outline_color"], offsets::ally_outline_color);
-	readValue(json["offsets"]["ares_outline_mode"], offsets::ares_outline_mode);
-	readValue(json["offsets"]["proj_world_to_screen"], offsets::proj_world_to_screen);
-	readValue(json["offsets"]["get_actor_bounds"], offsets::get_actor_bounds);
 	readValue(json["offsets"]["persistent_level"], offsets::persistent_level);
 	readValue(json["offsets"]["owning_game_instance"], offsets::owning_game_instance);
 	readValue(json["offsets"]["game_state"], offsets::game_state);

@@ -1,6 +1,6 @@
 {
    "offsets":{
-      "fname_pool":"0x9A586BF",
+      "fname_pool":"0x9ae34c0",
       "persistent_level":"0x38",
       "owning_game_instance":"0x1A0",
       "game_state":"0x140",
@@ -13,13 +13,13 @@
       "player_camera":"0x478",
       "control_rotation":"0x440",
       "root_component":"0x230",
-      "damage_handler":"0x9f8",
+      "damage_handler":"0xa08",
       "actor_id":"0x18",
       "fname_id":"0x38",
       "dormant":"0x100",
       "player_state":"0x3f0",
       "current_mesh":"0x430",
-      "inventory":"0x998",
+      "inventory":"0x9a8",
       "outline_component":"0x11D0",
       "portrait_map":"0x1168",
       "character_map":"0x1160",

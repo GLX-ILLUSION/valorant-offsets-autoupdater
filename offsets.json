@@ -13,7 +13,7 @@
       "player_camera":"0x478",
       "control_rotation":"0x440",
       "root_component":"0x230",
-      "damage_handler":"0xA08",
+      "damage_handler":"0x9FC",
       "actor_id":"0x18",
       "fname_id":"0x38",
       "dormant":"0x100",

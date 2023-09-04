@@ -21,8 +21,8 @@
       "current_mesh":"0x430",
       "inventory":"0x9a8",
       "outline_component":"0x11D0",
-      "portrait_map":"0x1168",
-      "character_map":"0x1160",
+      "portrait_map":"0x1188",
+      "character_map":"0x1180",
       "current_equippable":"0x248",
       "local_observer":"0x530",
       "is_visible":"0x501",
@@ -48,7 +48,7 @@
       "current_fov":"0x18",
       "enemy_outline":"0x2B1",
       "bone_array_cache":"0x5C8",
-      "current_defuse_section":"0x514",
+      "current_defuse_section":"0x508",
       "magazine_ammo":"0xFF0",
       "auth_resource_amount":"0x120",
       "max_ammo":"0x140",
@@ -59,6 +59,7 @@
       "DamageType":"0x128",
       "DamageSections":"0x198",
       "CurrentEquippableVFXState":"0xcf0",
-      "fresnel_intensity":"0x6f0"
+      "fresnel_intensity":"0x1c8",
+      "cachecam":"0x1FE0"
    }
 }

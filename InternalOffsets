@@ -1,26 +1,19 @@
-NEW OFFSETS UPDATE: 07.06.00.983570
-
-UWorldState = 0xA0ED580;
-UWorldKey = 0xA0ED5B8;
-TriggerVEH = 0x1DF1E00;
-ProcessEvent = 0x3D799D0;
-
-GetSpreadValues = 0x2C58190;
-GetSpreadAngles = 0x33CEBD0;
-ToVectorAndNormalize = 0x3A8A230;
-ToAngleAndNormalize = 0x3A86A20;
-GetFiringLocation = 0x31CD2F0;
-
-FNamePool = 0x9EB5580;
-FNamepoolDecryptWide = 0x3B09F90;
-FNamepoolDecryptNonWide = 0x3B09F20;
-GObjectState = 0x9F103F8;
-GObjectKey = 0x9F10430;
-
-SkinChanger = 0x2C8C310 or 0x2BE1110 (not tested)
-StaticFindObject = 0x3D8E070;
-StaticLoadObject = 0x3D8EB20;
-BoneMatrix = 0x5823DD0;
-LineOfSight = 0x58520B0;
-GetActorBounds = 0x55F5F00;
-ProjectWorldToScreen = 0x5971960;
+UWorldState = 0xA16A100;
+UWorldKey = 0xA16A138;
+LineOfSight = 0x58A1620;
+TriggerVEH = 0x1E14750;
+ProcessEvent = 0x3DC8E40;
+GetSpreadAngles = 0x34097A0;
+ToVectorAndNormalize = 0x3AD9300;
+ToAngleAndNormalize = 0x3AD5AF0;
+FNamePool = 0x9F32140;
+FNamepoolDecryptWide = 0x3B59390;
+FNamepoolDecryptNonWide = 0x3B59320;
+GObjectState = 0x9F8CFB8;
+GObjectKey = 0x9F8CFF0;
+StaticFindObject = 0x3DDD4E0;
+StaticLoadObject = 0x3DDDF90;
+BoneMatrix = 0x5873310;
+AresOutline = 0x58222D0;
+GetActorBounds = 0x5645450;
+ProjectWorldToScreen = 0x59C1930;

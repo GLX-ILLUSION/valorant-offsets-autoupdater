@@ -1,6 +1,6 @@
 {
    "offsets":{
-      "fname_pool":"0xA0FA540",
+      "fname_pool":"0xA197300",
       "persistent_level":"0x38",
       "owning_game_instance":"0x1A0",
       "game_state":"0x140",
@@ -13,16 +13,16 @@
       "player_camera":"0x480",
       "control_rotation":"0x448",
       "root_component":"0x238",
-      "damage_handler":"0xA10",
+      "damage_handler":"0x9F0",
       "actor_id":"0x18",
       "fname_id":"0x38",
       "dormant":"0x100",
       "player_state":"0x3f8",
       "current_mesh":"0x438",
-      "inventory":"0x9B0",
+      "inventory":"0x990",
       "outline_component":"0x11D0",
-      "portrait_map":"0x1198",
-      "character_map":"0x11a0",
+      "portrait_map":"0x1188",
+      "character_map":"0x1180",
       "current_equippable":"0x248",
       "local_observer":"0x530",
       "is_visible":"0x501",
@@ -60,6 +60,6 @@
       "DamageSections":"0x198",
       "CurrentEquippableVFXState":"0xcf8",
       "fresnel_intensity":"0x1c8",
-      "cachecam":"0x1FE0"
+      "cachecam":"0x1FB0"
    }
 }

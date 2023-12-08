@@ -14,9 +14,10 @@ Follow these steps to integrate the automatic offsets updater into your project:
 
 1. Download all the files from this repository.
 2. Add the `offsets.cpp` , `offsets.hpp` and `json.hpp` files to your project.
-3. Copy the example code provided in this repository to your `main.cpp` file or any other file where you want to call the offsets initializer.
-4. Modify the URL in the code as needed or use the provided URL.
-5. Compile your project.
+3. Include Curl in your project using vcpkg or github files repo.
+4. Copy the example code provided in this repository to your `main.cpp` file or any other file where you want to call the offsets initializer.
+5. Modify the URL in the code as needed or use the provided URL.
+6. Compile your project.
 
 Feel free to submit pull requests or open issues for improvements, bug fixes, or new features. Your contributions are greatly appreciated!
 

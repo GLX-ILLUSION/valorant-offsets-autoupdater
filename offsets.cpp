@@ -34,14 +34,8 @@ void readValue(const nlohmann::json& src, T& dest)
 
 void offsets::initialize()
 {
-	std::ifstream input_file{ "offsets.json" };
-	if (!input_file.good())
-		throw std::invalid_argument("Invalid offsets.json file");
-
-	nlohmann::json json;
-	input_file >> json;
-
-	
+	//Offsets Streaming without a json file in disk
+	json json = setup_curl();
 	readValue(json["offsets"]["fname_pool"], offsets::fname_pool);
 	readValue(json["offsets"]["persistent_level"], offsets::persistent_level);
 	readValue(json["offsets"]["owning_game_instance"], offsets::owning_game_instance);

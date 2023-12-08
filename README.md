@@ -1,6 +1,6 @@
 # JSON Offsets for Automatic Offsets Updater in Cheat
 
-This project is an adaptation of an automatic offsets updater for cheats, based on a CS:GO codebase. It aims to simplify the process of maintaining and updating offsets in your cheats, ensuring that they are always up-to-date.
+This project is an adaptation of an automatic offsets updater for cheats, based on a CS:GO codebase. It aims to simplify the process of maintaining and updating offsets in your cheats, ensuring that they are always up-to-date without the need to compile a new loader for your P2C.
 
 ## Credits
 

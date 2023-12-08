@@ -34,7 +34,7 @@ std::string fetch_data_from_url(const std::string& url, struct curl_slist* heade
 
 	if (!curl)
 	{
-		throw std::runtime_error(obsSecureString("Failed to initialize curl."));
+		throw std::runtime_error("Failed to initialize curl.");
 	}
 
 	curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
@@ -50,7 +50,7 @@ std::string fetch_data_from_url(const std::string& url, struct curl_slist* heade
 
 	if (res != CURLE_OK)
 	{
-		throw std::runtime_error(obsSecureString("Failed to fetch data from URL."));
+		throw std::runtime_error("Failed to fetch data from URL.");
 	}
 
 	return response_string;

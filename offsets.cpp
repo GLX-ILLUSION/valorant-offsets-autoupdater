@@ -4,7 +4,7 @@
 #include "offsets.hpp"
 #include <sstream>
 #include <iostream>
-
+#include "CurlSetup.hpp"
 #include <sstream>
 
 template <typename T>

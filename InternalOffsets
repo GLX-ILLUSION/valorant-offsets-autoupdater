@@ -1,16 +1,18 @@
-UWorldState = 0xA3CF600;
-UWorldKey = 0xA3CF638;
-
-TriggerVEH = 0x1EC5540;
-ProcessEvent = 0x3F3F230;
-
-GObjectState = 0xA1F2538;
-GObjectKey = 0xA1F2570;
-StaticFindObject = 0x3F538D0;
-AresOutline = 0x5998C10;
-GetActorBounds = 0x57BBBE0;
-
-FNamePool = 0xA18BB40;
-FNamepoolDecryptWide = idk;
-FNamepoolDecryptNonWide = idk;
-
+uintptr_t VehDeref = 0x1F84B30;
+uintptr_t FNamePool = 0xA429D40;
+uintptr_t ProcessEvent = 0x40C96A0;
+uintptr_t StaticFindObject = 0x40DDCE0;
+uintptr_t StaticLoadObject = 0x40DE790;
+uintptr_t BypassSkinchanger = 0x2E87330;
+uintptr_t WorldToScreen = 0x5CA3880;
+uintptr_t BoneMatrix = 0x5B7E370;
+uintptr_t ToVectorAndNormalize = 0x3DD97E0;
+uintptr_t ToAngleAndNormalize = 0x3DD5FD0; 
+uintptr_t GetSpreadValues = 0x2E4DFE0;
+uintptr_t GetSpreadAngles =  0x3676590;
+uintptr_t GetFiringLocation = 0x3427760;
+uintptr_t SetOutlineMode = 0x5B2D200;
+uintptr_t SetOutlineColorsForRender = 0x48A8620;
+uintptr_t MakeRenderStateDirty = 0x5AD79E0;
+uintptr_t LineOfSightTo = 0x5879910;
+uintptr_t FreeMemory = 0x3D4C8C0;

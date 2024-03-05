@@ -10,6 +10,7 @@ uintptr_t StaticLoadObject = 0x413A340;
 uintptr_t BypassSkinchanger = 0x2EB4BA0;
 uintptr_t WorldToScreen = 0x5CFED70;
 uintptr_t BoneMatrix = 0x5BD99D0;
+uintptr_t GetActorBounds = 0x59AB630;
 uintptr_t ToVectorAndNormalize = 0x3E35220;
 uintptr_t ToAngleAndNormalize = 0x3E31A10; 
 uintptr_t GetSpreadValues = 0x2EB6CC0;

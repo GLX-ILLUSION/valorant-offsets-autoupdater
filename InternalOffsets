@@ -19,5 +19,5 @@ uintptr_t GetFiringLocation = 0x3465DD0;
 uintptr_t SetOutlineMode = 0x5B888B0;
 uintptr_t SetOutlineColorsForRender = 0x4903F80;
 uintptr_t MakeRenderStateDirty = 0x5B32FC0;
-uintptr_t LineOfSightTo = 0x5879910;
+uintptr_t LineOfSightTo = 0x2226F40;
 uintptr_t FreeMemory = 0x3DA8300;

@@ -1,13 +1,15 @@
 #include "pch.h"
 
+size_t call_back(const char* in, size_t size, size_t num, std::string* out)
+{
+	const size_t totalBytes(size * num);
+	out->append(in, totalBytes);
+	return totalBytes;
+}
+
 std::string getoffsets::fetch_data_from_url(const std::string& url, struct curl_slist* headers)
 {
-	auto call_back = [](const char* in, size_t size, size_t num, std::string* out)
-	{
-		const size_t totalBytes(size * num);
-		out->append(in, totalBytes);
-		return totalBytes;
-	};
+
 
 	CURL* curl = curl_easy_init();
 	std::string response_string;

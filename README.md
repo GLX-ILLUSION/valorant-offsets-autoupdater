@@ -1,12 +1,6 @@
-# JSON Offsets for Automatic Offsets Updater in Cheat
+# JSON Offsets for Automatic Offsets Updater
 
-This project is an adaptation of an automatic offsets updater for cheats, based on a CS:GO codebase. It aims to simplify the process of maintaining and updating offsets in your cheats, ensuring that they are always up-to-date without the need to compile a new loader for your P2C.
-
-## Credits
-
-The original offsets were sourced from the following repository: [Pinguu-dev](https://github.com/Pinguu-dev/)
-
-A special thanks to the contributors of the Pinguu-dev repository for their hard work and dedication to providing up-to-date offsets.
+This project is an adaptation of an automatic offsets updater, based on a CS:GO codebase. It aims to simplify the process of maintaining and updating offsets, ensuring that they are always up-to-date without the need to compile a new loader for your P2C.
 
 ## Usage
 

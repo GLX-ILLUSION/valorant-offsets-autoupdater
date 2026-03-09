@@ -10,8 +10,6 @@ Follow these steps to integrate the web offsets updater into your project:
 2. Modify the URL in the code as needed or use the provided URL.
 3. Compile your project.
 
-Feel free to submit pull requests or open issues for improvements, bug fixes, or new features. Your contributions are greatly appreciated!
-
 ## License
 
 This project is licensed under the MIT License.

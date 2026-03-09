@@ -42,7 +42,7 @@ std::string getoffsets::fetch_data_from_url(const std::string& url, struct curl_
 json getoffsets::get()
 {
 	struct curl_slist* headers = NULL;
-	auto responseData = fetch_data_from_url("https://raw.githubusercontent.com/GLX-ILLUSION/valorant-offsets-autoupdater/main/offsets.json", headers);
+	auto responseData = fetch_data_from_url("https://raw.githubusercontent.com/GLX-ILLUSION/val-web-offsets/main/offsets.json", headers);
 	curl_slist_free_all(headers);
 
 	return json::parse(responseData);
